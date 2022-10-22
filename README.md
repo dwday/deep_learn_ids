@@ -4,7 +4,6 @@
 Example output:
 
 ![alt text](images/acc.jpg)
-
 ![alt text](images/training_acc.jpg)
 
 ![alt text](images/confusion_matrix.jpg)
