@@ -1,5 +1,5 @@
 
-# Deep Learning Based Intrusion Detection 
+# Intrusion Detection System - IDS example using Dense, Conv1d and Lstm layers in Keras / TensorFlow
 
 Example output:
 
