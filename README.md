@@ -1,7 +1,7 @@
 
 # Intrusion Detection System - IDS example using Dense, Conv1d and Lstm layers in Keras / TensorFlow
 
-Example output:
+##Example output:
 
 ![alt text](images/acc.jpg)
 ![alt text](images/training_acc.jpg)
