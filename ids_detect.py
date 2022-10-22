@@ -2,6 +2,13 @@
 # -*- coding: utf-8 -*-
 """
 An example Intrusion Detection application using Dense, Conv1d and Lstm layers
+please cite below works if you find it useful:
+Akgun, Devrim, Selman Hizal, and Unal Cavusoglu. "A new DDoS attacks intrusion detection 
+model based on deep learning for cybersecurity." Computers & Security 118 (2022): 102748.
+
+Hizal, Selman, Ünal ÇAVUŞOĞLU, and Devrim AKGÜN. "A New Deep Learning Based Intrusion 
+Detection System for Cloud Security." 2021 3rd International Congress on Human-Computer 
+Interaction, Optimization and Robotic Applications (HORA). IEEE, 2021.
 """
 
 
