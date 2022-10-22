@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
+An example Intrusion Detection application using Dense, Conv1d and Lstm layers
 """
 
 
@@ -18,14 +18,12 @@ from sklearn.utils import class_weight
 from models import models_ddos
 
 
-epochs = 5
+epochs = 100
 nclass = 12 
 
 def loadDataset():
     # Put dataset path here ! 
-    #filename='/media/com/WORKSPACE/Dataset/IDS/ddos2019/68_13_RANDOM_672739.csv'    
-    filename='/media/ubuntu/Yeni Birim/Works/DDOS2019v2/dataset/68_13_RANDOM_672739.csv'    
-
+    filename='/media/com/WORKSPACE/Dataset/IDS/ddos2019/68_13_RANDOM_672739.csv'    
 
     trainfile = pd.read_csv(filename)    
     data = pd.DataFrame(trainfile).to_numpy()
